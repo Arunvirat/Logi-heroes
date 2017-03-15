@@ -26,8 +26,8 @@ export default class AthletePage extends React.Component {
             <h2 className="name">{athlete.name}</h2>
           </div>
           <section className="description">
-            Olympic medalist from <strong><Flag code={athlete.country} showName="true"/></strong>,
-            born in {athlete.birth} (Find out more on <a href={athlete.link} target="_blank">Wikipedia</a>).
+            Enthuiastic Clan from Logitech Chennai<strong><Flag code={athlete.country} showName="true"/></strong>,
+            .
           </section>
           <section className="medals">
             <p>Winner of <strong>{athlete.medals.length}</strong> medals:</p>
