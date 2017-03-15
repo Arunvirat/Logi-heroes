@@ -52,8 +52,8 @@ const athletes = [
     'name': 'CLAN C',
     'country': 'jp',
     'birth': '1975',
-    'image': 'ravenclaw.jpg',
-    'cover': 'ravenclaw_banner.jpg',
+    'image': 'ravenclaw.JPG',
+    'cover': 'ravenclaw_banner.JPG',
     'link': 'https://en.wikipedia.org/wiki/Ryoko_Tani',
     'medals': [
       { 'year': '2017', 'type': 'B', 'city': 'chess', 'event': 'World Championships', 'category': '-48kg' },
