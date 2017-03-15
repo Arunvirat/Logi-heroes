@@ -52,7 +52,7 @@ const athletes = [
     'name': 'CLAN C',
     'country': 'jp',
     'birth': '1975',
-    'image': 'ravenclaw.JPG',
+    'image': 'rave.jpg',
     'cover': 'ravenclaw_banner.JPG',
     'link': 'https://en.wikipedia.org/wiki/Ryoko_Tani',
     'medals': [
