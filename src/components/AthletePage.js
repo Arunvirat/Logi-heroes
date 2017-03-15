@@ -9,6 +9,21 @@ import Flag from './Flag';
 import athletes from '../data/athletes';
 
 export default class AthletePage extends React.Component {
+  calculateTotalPoints()
+  {
+      const id = this.props.params.id;
+       const athlete = athletes.filter((athlete) => athlete.id === id)[0];
+    var totalpoints =0;
+    var myGameRows =athlete.medals;
+    if(myGameRows.length>0)
+    {
+      for(var s=0;s<myGameRows.length; s++)
+      {
+       totalpoints = totalpoints + parseInt(myGameRows[s].category);
+      }
+    }
+    return totalpoints;
+  }
   render() {
     const id = this.props.params.id;
     const athlete = athletes.filter((athlete) => athlete.id === id)[0];
@@ -30,7 +45,7 @@ export default class AthletePage extends React.Component {
             .
           </section>
           <section className="medals">
-            <p>Played <strong>{athlete.medals.length}</strong> Games:</p>
+            <p>Played <strong>{athlete.medals.length}</strong> Games <span> with <strong>{this.calculateTotalPoints()}</strong> total points.</span></p>
             <ul>{
               athlete.medals.map((medal, i) => <Medal key={i} {...medal}/>)
             }</ul>
