@@ -16,7 +16,7 @@ export default class Medal extends React.Component {
         <span className="year">{this.props.year}</span>
         <span className="city"> {this.props.city}</span>
         <span className="event"> ({this.props.event})</span>
-        <span className="category"> {this.props.category}</span>
+        <span className="category"> {this.props.category} points</span>
       </li>
     );
   }

@@ -26,11 +26,11 @@ export default class AthletePage extends React.Component {
             <h2 className="name">{athlete.name}</h2>
           </div>
           <section className="description">
-            Enthuiastic Clan from Logitech Chennai<strong><Flag code={athlete.country} showName="true"/></strong>,
+            Enthuiastic Clan from Logitech Chennai<strong><Flag code={athlete.country}/></strong>,
             .
           </section>
           <section className="medals">
-            <p>Winner of <strong>{athlete.medals.length}</strong> medals:</p>
+            <p>Played <strong>{athlete.medals.length}</strong> Games:</p>
             <ul>{
               athlete.medals.map((medal, i) => <Medal key={i} {...medal}/>)
             }</ul>
