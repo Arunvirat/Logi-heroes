@@ -20,7 +20,9 @@ const athletes = [
       { 'year': '2017', 'type': 'G', 'city': 'shuttle', 'event': 'single-men', 'category': '20' },
       { 'year': '2017', 'type': 'S', 'city': 'shuttle', 'event': 'double-mixed', 'category': '22' },
       { 'year': '2017', 'type': 'G', 'city': 'shuttle', 'event': 'double-men', 'category': '50' },
-      
+      { 'year': '2017', 'type': 'G', 'city': 'volleyball', 'event': 'volleyball', 'category': '18' },
+      { 'year': '2017', 'type': 'G', 'city': 'tug of war', 'event': 'tug of war', 'category': '37' },
+      { 'year': '2017', 'type': 'G', 'city': 'table tennis-double', 'event': 'table tennis-double', 'category': '40' },
     ],
   },
   {
@@ -41,6 +43,9 @@ const athletes = [
       { 'year': '2017', 'type': 'B', 'city': 'shuttle', 'event': 'single-men', 'category': '39' },
        { 'year': '2017', 'type': 'B', 'city': 'shuttle', 'event': 'double-mixed', 'category': '38' },
         { 'year': '2017', 'type': 'B', 'city': 'shuttle', 'event': 'double-men', 'category': '16' },
+        { 'year': '2017', 'type': 'G', 'city': 'volleyball', 'event': 'volleyball', 'category': '39' },
+        { 'year': '2017', 'type': 'G', 'city': 'tug of war', 'event': 'tug of war', 'category': '24' },
+        { 'year': '2017', 'type': 'G', 'city': 'table tennis-double', 'event': 'table tennis-double', 'category': '78' },
     ],
   },
   {
@@ -61,6 +66,9 @@ const athletes = [
       { 'year': '2017', 'type': 'G', 'city': 'shuttle', 'event': 'single-men', 'category': '32' },
       { 'year': '2017', 'type': 'S', 'city': 'shuttle', 'event': 'double-mixed', 'category': '19' },
       { 'year': '2017', 'type': 'G', 'city': 'shuttle', 'event': 'double-men', 'category': '24' },
+      { 'year': '2017', 'type': 'G', 'city': 'volleyball', 'event': 'volleyball', 'category': '52' },
+      { 'year': '2017', 'type': 'G', 'city': 'tug of war', 'event': 'carrom', 'category': '54' },
+      { 'year': '2017', 'type': 'G', 'city': 'table tennis-double', 'event': 'table tennis-double', 'category': '47' },
      
     ],
   },
@@ -82,6 +90,9 @@ const athletes = [
       { 'year': '2017', 'type': 'G', 'city': 'shuttle', 'event': 'single-men', 'category': '56' },
       { 'year': '2017', 'type': 'S', 'city': 'shuttle', 'event': 'double-mixed', 'category': '12' },
       { 'year': '2017', 'type': 'G', 'city': 'shuttle', 'event': 'double-men', 'category': '39' },
+      { 'year': '2017', 'type': 'G', 'city': 'volleyball', 'event': 'volleyball', 'category': '24' },
+      { 'year': '2017', 'type': 'G', 'city': 'tug of war', 'event': 'tug of war', 'category': '28' },
+      'year': '2017', 'type': 'G', 'city': 'table tennis-double', 'event': 'table tennis-double', 'category': '36' },
      
     ],
   }
