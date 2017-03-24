@@ -9,7 +9,7 @@ import NotFoundPage from './components/NotFoundPage';
 import FixtureLayout from './components/FixtureLayout';
 
 const routes = (
-  <Route path="/" component={FixtureLayout}>
+  <Route path="/" component={Layout}>
     <IndexRoute component={IndexPage}/>
     <Route path="athlete/:id" component={AthletePage}/>
     <Route path="*" component={NotFoundPage}/>
